@@ -1,1 +1,1 @@
-This repository created to keep my work for study save.
+This repository created to keep my study work.
