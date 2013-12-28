@@ -23,5 +23,6 @@ int main()
 	for(j=0;j<i;j++)
 	printf(" %d ",*(c+j));
 	printf("\n");
+	free(c);
 	return 0;
 }
