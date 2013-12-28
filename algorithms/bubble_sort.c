@@ -7,7 +7,7 @@ int main()
 	c=(int *) calloc(100,sizeof(int));
 	printf("Enter the element:\n");
 	scanf("%d",(c+i));
-	while(*(c+i)>=0)
+	while(*(c+i)>=0 && i<100)
 	{
 		i++;
 		scanf("%d",(c+i));
@@ -33,5 +33,6 @@ printf("Sorted Array:");
 for(j=0;j<i;j++)
 printf(" %d ",*(c+j));
 printf("\n");
+free(c);
 return 0;
 }

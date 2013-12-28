@@ -7,7 +7,7 @@ int main()
 	c= new int [100];
 	cout<<"Enter the element:\n";
 	cin>>(*(c+i));
-	while(*(c+i)>=0)
+	while(*(c+i)>=0 && i<100)
 	{
 		i++;
 		cin>>(*(c+i));
@@ -33,5 +33,6 @@ cout<<"Sorted Array:";
 for(j=0;j<i;j++)
 cout<<*(c+j)<<" ";
 cout<<endl;
+delete[] c;
 return 0;
 }
