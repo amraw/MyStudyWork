@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=depthImages\ initialStep\ currentStep\ finalStep\ initialScale\ finalScale\ initialX\ finalX\ initialY\ finalY
+comment0.target=comp102x.ColorImage\ generateIntermediateFootballImage(comp102x.ColorImage[],\ int,\ int,\ int,\ double,\ double,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ This\ method\ select\ the\ \ correct\ image,\ calculate\ and\ sets\ its\ X-position,\ calculate\ and\ sets\ its\ Y-position,\ calculate\ and\ sets\ its\ Scale\ and\ return\ \r\n\ that\ image.\r\n
+comment1.params=goals
+comment1.target=void\ updateGoalPositions(comp102x.assignment.Goal[][])
+comment1.text=\r\n\ This\ method\ update\ the\ positions\ of\ goal\ on\ the\ Canvas.\r\n
+comment2.params=goals\ p\ r
+comment2.target=void\ swap1(comp102x.assignment.Goal[][],\ int,\ int)
+comment2.text=\r\n\ This\ method\ is\ use\ for\ swaping\ the\ movable\ goal\ with\ an\ empty\ space\ at\ row\=p\ and\ Coloumn\=r.\ It\ is\ used\ when\r\n\ number\ of\ Goals\ hit\ is\ less\ than\ number\ of\ goal\ left.\r\n
+comment3.params=goals\ i\ j
+comment3.target=void\ swap2(comp102x.assignment.Goal[][],\ int,\ int)
+comment3.text=\r\n\ This\ method\ is\ use\ to\ swapping\ the\ movable\ goal\ at\ position\ row\=i\ and\ col\=j\ with\ any\ empty\ or\ Goal\ which\ is\ already\ hit.\ It\ is\ used\ when\r\n\ number\ of\ Goals\ hit\ is\ greater\ than\ number\ of\ goal\ left.\r\n
+comment4.params=highScoreRecords\ name\ level\ score
+comment4.target=comp102x.assignment.GameRecord[]\ updateHighScoreRecords(comp102x.assignment.GameRecord[],\ java.lang.String,\ int,\ int)
+comment4.text=\r\n\ This\ method\ is\ use\ for\ updating\ the\ High\ Score\ Records\ when\ the\ game\ ends.\r\n
+comment5.params=records
+comment5.target=void\ sort(comp102x.assignment.GameRecord[])
+numComments=6

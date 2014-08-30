@@ -1,0 +1,43 @@
+        int rows=goals.length;
+        int col=goals[0].length;
+        int []moveGoalRow;int []moveGoalCol;
+        moveGoalRow=new int[11];
+        moveGoalCol=new int[11];
+        int[]hitRow;int []hitCol;
+        hitRow=new int[11];
+        hitCol=new int[11];
+        int k=0,m=0;
+        
+        for(int i=0;i<rows;i++)
+        for(int j=0;j<col;j++)
+        {
+            if(goals[i][j].getType()== 2 && !goals[i][j].isHit())
+            {
+               moveGoalRow[k]=i;
+               moveGoalCol[k++]=j;
+            }
+            else if(goals[i][j].isHit())
+            {
+                hitRow[m]=i;
+                hitCol[m++]=j;
+            }
+        }
+        if(k==0)
+            return ;
+        else
+        {
+            Random randobject1=new Random();
+            Random randobject2=new Random();
+            int moveGoal=randobject1.nextInt(k);
+            
+            int hitGoal=randobject2.nextInt(m);
+            
+            // The Index of move Goal and Hit goal to be swapped with are calculated
+            int i=moveGoalRow[moveGoal],j=moveGoalCol[moveGoal];
+            int p=hitRow[hitGoal],q=hitCol[hitGoal];
+           
+            // Swapping is done here
+            Goal temp=goals[i][j];
+            goals[i][j]=goals[p][q];
+            goals[p][q]=temp;
+        }

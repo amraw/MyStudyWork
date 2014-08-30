@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ColorImageDemo()
+comment1.params=x\ y
+comment1.target=ColorImageDemo(int,\ int)
+comment2.params=degrees
+comment2.target=void\ setRotateDemo(int)
+comment3.params=
+comment3.target=int\ getRotateDemo()
+comment4.params=scaleFactor
+comment4.target=void\ scaleDemo(double)
+comment5.params=x\ y
+comment5.target=void\ translateDemo(int,\ int)
+numComments=6

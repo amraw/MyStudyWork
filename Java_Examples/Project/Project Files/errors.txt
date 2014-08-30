@@ -1,0 +1,6 @@
+When currentStep = 1, 1-th depth image should be selected and the position X and Y should be 55 and 91 with scale 0.93333.
+Failed. because:
+It is incorrect that the Y position of selected image is 90.
+When currentStep = 8, 8-th depth image should be selected and the position X and Y should be 95 and 28 with scale 0.46667.
+Failed. because:
+It is incorrect that the Y position of selected image is 27.

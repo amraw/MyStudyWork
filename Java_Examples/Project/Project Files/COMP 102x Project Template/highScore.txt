@@ -1,0 +1,4 @@
+amit	1	12
+crash	2	11
+Ravi	3	10
+kanica	2	10
